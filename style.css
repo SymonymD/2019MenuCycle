@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: "Segoe-sb";
+  src: url(./segoesb.ttf) format("truetype");
+}
+
+@font-face {
   font-family: 'Staatliches';
   font-style: normal;
   font-weight: 400;
@@ -81,13 +86,13 @@ height: 1200px;
 
 .what {
   display: grid;
-  font-family: Segoe;
+  font-family: Segoe-sb;
   text-align: center;
   width: 100%;
   background-color: white;
   color: black;
   font-size: 0.8rem;
-  text-transform: uppercase;
+  //text-transform: uppercase;
   box-shadow: 0px 3px 10px #003300;
   border-radius: 5px;
   justify-content: stretch;
@@ -103,17 +108,18 @@ height: 1200px;
 .what ul li {
 list-style: none;
 text-align: center;
-font-family: Segoe;
+font-family: Segoe-sb;
 display: grid;
 padding: 0px;
 font-size: 0.8rem;
 }
 
 .what h4 {
-  font-family: Segoe;
+  font-family: Segoe-sb;
   font-size: 1rem;
   text-align: center;
   margin: 0;
+  padding: 2px;
 }
 p {
   margin-bottom: 20px;
